@@ -1,20 +1,6 @@
-#Fibonacci Sequence
-
-def fib(n):
-    if n<2:
-        return n
-    return fib(n-1)+fib(n-2)
-
-fib_seq = []
-
 a=int(input('Please enter a number to generate Fibonacci series: '))
 
-for i in range(a):
-    fib_seq.append(fib(i))
-
-print(*fib_seq)
-
-# Using for loop
+fib_seq = []
 
 for i in range(a):
     if len(fib_seq)<2:
