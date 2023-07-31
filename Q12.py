@@ -11,4 +11,7 @@ for letter in string:
         res = False
         break
 
-print(res)
+if res:
+    print("Given input is a number")
+else:
+    print("Given input contains character which are not only numbers")
