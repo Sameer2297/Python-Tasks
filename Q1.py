@@ -1,3 +1,5 @@
+# Generate a Fibonacci sequence
+
 a=int(input('Please enter a number to generate Fibonacci series: '))
 
 fib_seq = []
